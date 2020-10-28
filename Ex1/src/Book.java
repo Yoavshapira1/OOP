@@ -6,6 +6,8 @@
  */
 public class Book {
 
+    //CHANGES ARE HERE
+
     /** The title of this book. */
     final String title;
 
