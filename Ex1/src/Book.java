@@ -5,9 +5,7 @@
  * This class represents a book, which has a title, author, year of publication and different literary aspects.
  */
 public class Book {
-
-    //CHANGES ARE HERE
-
+    
     /** The title of this book. */
     final String title;
 
