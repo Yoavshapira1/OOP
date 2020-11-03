@@ -1,0 +1,24 @@
+yoavshapira1
+
+
+=============================
+=      File description     =
+=============================
+Library.java - A class which represents a single library. A library holds: list of patrons, list of books, and private list of how many books each patron holds ATM.
+Book.java - a class which represents a single book.
+Patron.java - a class which represents a single patron.
+
+
+=============================
+=          Design           =
+=============================
+simply as described in the excercise instructions: A clacc for each object.
+The Library object uses the Book and Patron objects.
+
+
+=============================
+=  Implementation details   =
+=============================
+* Giving ID numbers - since every Library object is stand alone, the IDs are the libarary's quality. Meanly, the library object gives the ID. Easiest way - ordered number in the array, meanly: indices.
+* Keeping the information: "how many books each patron borrows at the moment" for each patron. Since a Patron can be, theoretically, registered to more than 1 library, thie is a Library's member. I kept this in an array, in same size oe Patron array.
+

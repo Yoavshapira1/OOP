@@ -71,7 +71,7 @@ public class Library {
      * @return true if the given number is an id of some book in the library, false otherwise.
      */
     boolean isBookIdValid(int bookId) {
-        return bookId < currentBooksAmount;
+        return ((bookId < currentBooksAmount) && (bookId >= 0));
     }
 
     /**
@@ -115,7 +115,7 @@ public class Library {
         }
         if (currentPatronsAmount < patronsList.length ) {       //this condition handles when (patronList.length = 0)
             patronsList[currentPatronsAmount] = patron;
-            borrowedBooksForPatron[currentBooksAmount] = 0;
+            borrowedBooksForPatron[currentPatronsAmount] = 0;
             currentPatronsAmount++;
             return (currentPatronsAmount - 1);
         }
@@ -128,7 +128,7 @@ public class Library {
      * @return true if the given number is an id of a patron in the library, false otherwise.
      */
     boolean isPatronIdValid(int patronId) {
-        return patronId < currentPatronsAmount;
+        return ((patronId < currentPatronsAmount) && (patronId >= 0));
     }
 
     /**
@@ -155,7 +155,8 @@ public class Library {
      */
     boolean borrowBook(int bookId, int patronId) {
         if ( isBookAvailable(bookId) && isPatronIdValid(patronId) ) {
-            if ( patronsList[patronId].willEnjoyBook(booksList[bookId]) ) {     //FIX THE ISSUE WITH THE MAX BORROW
+            if ( patronsList[patronId].willEnjoyBook(booksList[bookId]) &&
+                 borrowedBooksForPatron[patronId] < maximumBorroedAllowed) {
                  booksList[bookId].setBorrowerId(patronId);
                  borrowedBooksForPatron[patronId]++;
                 return true;
@@ -169,7 +170,7 @@ public class Library {
      * @param bookId The id number of the book to return.
      */
     void returnBook(int bookId) {
-        if ( isBookIdValid(bookId) ) {
+        if ( isBookIdValid(bookId) && booksList[bookId].getCurrentBorrowerId() != -1) {
             borrowedBooksForPatron[booksList[bookId].getCurrentBorrowerId()]--;
             booksList[bookId].returnBook();
         }
@@ -182,20 +183,18 @@ public class Library {
      * @return The available book the patron with the given ID will enjoy the most. Null if no book is available.
      */
     Book suggestBookToPatron(int patronId) {
-        Book preferedBook = null;
+        Book bestBook = null;
         if ( isPatronIdValid(patronId) ) {
-            if ( borrowedBooksForPatron[patronId] > maximumBorroedAllowed ) {
-                return null;
-            }
             int maxEnjoymentValue = 0;
             for (int i = 0; i < currentBooksAmount; i++) {
                 if ( patronsList[patronId].willEnjoyBook(booksList[i]) &&
-                     patronsList[patronId].getBookScore(booksList[i]) > maxEnjoymentValue ) {
-                    preferedBook = booksList[i];
+                     patronsList[patronId].getBookScore(booksList[i]) > maxEnjoymentValue &&
+                     isBookAvailable(i)) {
+                    bestBook = booksList[i];
                     maxEnjoymentValue = patronsList[patronId].getBookScore(booksList[i]);
                 }
             }
         }
-        return preferedBook;
+        return bestBook;
     }
 }

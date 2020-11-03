@@ -55,7 +55,7 @@ public class Patron {
      * @return The String representation of this patron
      */
     String stringRepresentation() {
-        return (firstName + lastName);
+        return (firstName + " " + lastName);
     }
 
     /**
@@ -75,7 +75,7 @@ public class Patron {
      * @return true if this patron will enjoy the given book, false otherwise.
      */
     boolean willEnjoyBook(Book book) {
-        return enjoymentThreshold > book.getLiteraryValue();
+        return (enjoymentThreshold < getBookScore(book));
     }
 
 }
