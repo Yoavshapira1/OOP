@@ -6,6 +6,10 @@ import oop.ex2.*;
  */
 public class HumanSpaceShip extends SpaceShip {
 
+    /** This is the name of the class of the special spaceship.
+     * The user-controlled needs to know it in order to check for collision. */
+    private static final String NAME_OF_SPECIAL = "SpecialSpaceShip";
+
     //------------------------------------private methods-------------------------------------------
 
     /** Check for collision with the closest ship. If this spaceship is the First Aid one ("Special"),
@@ -13,8 +17,9 @@ public class HumanSpaceShip extends SpaceShip {
     private void isCollidedWithFirstAid(SpaceWars game) {
         SpaceShip closestShip = game.getClosestShipTo(this);
         if (this.getPhysics().testCollisionWith(closestShip.getPhysics()) &&
-               (closestShip instanceof SpecialSpaceShip) && (this.isShieldUp) && !closestShip.isShieldUp) {
-            this.healthLevel += ((SpecialSpaceShip) closestShip).getHealthAmount();
+           (closestShip.getClass().getName().equals(NAME_OF_SPECIAL)) &&
+           (this.isShieldUp) && !closestShip.isShieldUp) {
+            this.healthLevel += ((SpecialSpaceShip)closestShip).getHealthAmount();
         }
     }
 
@@ -62,8 +67,8 @@ public class HumanSpaceShip extends SpaceShip {
         }
 
         //check for specific collision - with the special spaceship. design wise, there was no option
-        //to read this information from the collision tester function - since its not getting the SpaceWar object
-        //and the object hasn't getter method for this
+        //to access this information from the collision tester function - since its not getting the SpaceWar object
+        //and the object hasn't getter method for this - so it's have to be manually
         isCollidedWithFirstAid(game);
     }
 

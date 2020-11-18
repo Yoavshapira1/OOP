@@ -5,6 +5,14 @@ import oop.ex2.*;
  */
 public class SpaceShipFactory {
 
+    /** private members indicates the possible types of spaceship. */
+    private static final String Human = "h";
+    private static final String Aggressive = "a";
+    private static final String Runner = "r";
+    private static final String Basher = "b";
+    private static final String Drankard = "d";
+    private static final String Special = "s";
+
     /**
      * creat the array
      * @param args arguments from user
@@ -14,22 +22,22 @@ public class SpaceShipFactory {
         SpaceShip arr[] = new SpaceShip[args.length];
         for (int i = 0; i < args.length; i++) {
             switch (args[i]) {
-                case "h":
+                case Human:
                     arr[i] = new HumanSpaceShip();
                     break;
-                case "r":
+                case Runner:
                     arr[i] = new RunnerSpaceShip();
                     break;
-                case "b":
+                case Basher:
                     arr[i] = new BasherSpaceShip();
                     break;
-                case "a":
+                case Aggressive:
                     arr[i] = new AggressiveSpaceShip();
                     break;
-                case "d":
+                case Drankard:
                     arr[i] = new DrunkardSpaceShip();
                     break;
-                case "s":
+                case Special:
                     arr[i] = new SpecialSpaceShip();
                     break;
                 default:

@@ -4,8 +4,8 @@ import oop.ex2.*;
 /**
  * The API spaceships need to implement for the SpaceWars game. 
  * It is your decision whether SpaceShip.java will be an interface, an abstract class,
- *  a base class for the other spaceships or any other option you will choose.
- *  protected members are to be used by the spaceship itself.
+ * a base class for the other spaceships or any other option you will choose.
+ * protected members are to be used by the spaceship itself.
  * @author Yoav Shapira
  */
 public abstract class SpaceShip{
@@ -241,7 +241,6 @@ public abstract class SpaceShip{
             this.physics = new SpaceShipPhysics();
             this.currentEnergyLevel -= ENERGY_COST_FOR_TELEPORT;
         }
-       
     }
     
 }
