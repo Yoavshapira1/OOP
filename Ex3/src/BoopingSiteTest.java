@@ -8,7 +8,7 @@ import java.util.Random;
 public class BoopingSiteTest {
 
     private static final int TEST_FACTOR = 10; //Todo: This factor determines how many times tests will be running
-                                               //Todo: A test randomizes variables, hence more tests - more accuracy
+                                               //Todo: A test randomizes variables, hence more tests - more checks
     private static final String smallDataPath = "hotels_tst1.txt"; //not empty file -> not Null engine
     private static final String nullDataPath = "hotels_tst2.txt"; //empty file -> Null engine
     private static final String bigDataPath = "hotels_dataset.txt";
@@ -43,7 +43,7 @@ public class BoopingSiteTest {
     }
 
     @AfterClass
-    public static void tearDown() throws Exception {
+    public static void tearDown() {
         System.out.println(allTestsPassed);
     }
 

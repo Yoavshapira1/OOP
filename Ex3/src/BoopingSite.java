@@ -7,12 +7,8 @@ public class BoopingSite{
 
     /* Implements the comparator by priority of: 1) Distance, 2) Number of POI, 3) Alphabetically */
     private static class distanceComparator implements Comparator<Hotel> {
-
         private final double longitude;
         private final double latitude;
-        private static final int LHS_IS_CLOSER = -1;
-        private static final int RHS_IS_CLOSER = 1;
-        private static final int EQUALS = 0;
 
         /* Compute a distance from the given point to a given hotel */
         private double getDistance(Hotel other){
@@ -21,7 +17,7 @@ public class BoopingSite{
         }
 
         /* Construct the specific coordinate-related for this comparator. */
-        public distanceComparator(double latitude, double longitude) {
+        distanceComparator(double latitude, double longitude) {
             this.longitude = longitude;
             this.latitude = latitude;
         }
@@ -41,7 +37,6 @@ public class BoopingSite{
 
     /* Implements the comparator by number of POI order. */
     private static class pointOfInterestsComparator implements Comparator<Hotel> {
-        private static final int EQUALS = 0;
 
         @Override
         public int compare(Hotel hotel1, Hotel hotel2) {
@@ -68,7 +63,7 @@ public class BoopingSite{
         @Override
         public int compare(Hotel hotel1, Hotel hotel2) {
             int result = hotel1.getStarRating() - (hotel2.getStarRating());
-            if (result == 0) {
+            if (result == EQUALS) {
                 return (new alphabeticComparator().compare(hotel1, hotel2));
             }
             return -result;
@@ -82,6 +77,11 @@ public class BoopingSite{
     public static final double LONGITUDE_MAX = 180;
     public static final double LATITUDE_MIN = -90;
     public static final double LATITUDE_MAX = 90;
+
+    /* Common members for comparators. */
+    private static final int LHS_IS_CLOSER = -1;
+    private static final int RHS_IS_CLOSER = 1;
+    private static final int EQUALS = 0;
 
     private ArrayList<Hotel> allHotels;
 

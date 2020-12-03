@@ -34,7 +34,8 @@ Spaceship:
 
 BoopingSite:
 	* The class BoopingSite includes nested classes which implement different Comparators<Hotel>, as the methods
-	require.
+	require. These nested classes are modified as static, because the don't depends on any attribute of the BoopingSite
+	class - they have their own right to exist.
 
 =============================
 =  Implementation details   =
