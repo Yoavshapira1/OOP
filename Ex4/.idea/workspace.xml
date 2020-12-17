@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="acc343d6-38d5-451c-884c-477269244f0e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1l9pKdikCGGMnhJ3krEfRkt9tng" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.31020942" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SimpleSetPerformanceAnalyzer">
+    <configuration name="MineOpenHashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MineOpenHashSetTest" />
+      <module name="Ex4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleSetPerformanceAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleSetPerformanceAnalyzer" />
+      <module name="Ex4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvyatarTest.ClosedHashSet_6_big_numbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ex4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EvyatarTest" />
+      <option name="METHOD_NAME" value="ClosedHashSet_6_big_numbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvyatarTest.ClosedHashSet_7_random" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ex4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EvyatarTest" />
+      <option name="METHOD_NAME" value="ClosedHashSet_7_random" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testsRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ex4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testsRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SimpleSetPerformanceAnalyzer" />
+        <item itemvalue="JUnit.testsRunner" />
+        <item itemvalue="Application.MineOpenHashSetTest" />
+        <item itemvalue="JUnit.EvyatarTest.ClosedHashSet_6_big_numbers" />
+        <item itemvalue="JUnit.EvyatarTest.ClosedHashSet_7_random" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="acc343d6-38d5-451c-884c-477269244f0e" name="Default Changelist" comment="" />
+      <created>1607019100423</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607019100423</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="599" y="287" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1607530948014">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="599" y="287" key="#com.intellij.debugger.actions.ViewTextAction/0.0.1536.864@0.0.1536.864" timestamp="1607530948014" />
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607439056456">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1607439056456" />
+    <state x="93" y="93" width="1350" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1607948582465">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="93" y="93" width="1350" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.864@0.0.1536.864" timestamp="1607948582465" />
+    <state x="574" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1607529993380">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1607529993380" />
+    <state x="574" y="139" key="#com.intellij.ide.util.MemberChooser/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1607508314842" />
+    <state width="346" height="466" key="DebuggerActiveHint" timestamp="1607440695619">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="346" height="466" key="DebuggerActiveHint/0.0.1536.864@0.0.1536.864" timestamp="1607440695619" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1607355944208">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1607355944208" />
+    <state width="1493" height="482" key="GridCell.Tab.0.bottom" timestamp="1608030459017">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="482" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608030459017" />
+    <state width="1493" height="276" key="GridCell.Tab.0.bottom/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1607512822706" />
+    <state width="724" height="562" key="GridCell.Tab.0.bottom/1920.0.1280.720/0.0.1536.864@1920.0.1280.720" timestamp="1607704508812" />
+    <state width="1493" height="482" key="GridCell.Tab.0.center" timestamp="1608030459017">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="482" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1608030459017" />
+    <state width="1493" height="276" key="GridCell.Tab.0.center/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1607512822706" />
+    <state width="724" height="562" key="GridCell.Tab.0.center/1920.0.1280.720/0.0.1536.864@1920.0.1280.720" timestamp="1607704508812" />
+    <state width="1493" height="482" key="GridCell.Tab.0.left" timestamp="1608030459017">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="482" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1608030459017" />
+    <state width="1493" height="276" key="GridCell.Tab.0.left/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1607512822706" />
+    <state width="724" height="562" key="GridCell.Tab.0.left/1920.0.1280.720/0.0.1536.864@1920.0.1280.720" timestamp="1607704508812" />
+    <state width="1493" height="482" key="GridCell.Tab.0.right" timestamp="1608030459017">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="482" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1608030459017" />
+    <state width="1493" height="276" key="GridCell.Tab.0.right/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1607512822706" />
+    <state width="724" height="562" key="GridCell.Tab.0.right/1920.0.1280.720/0.0.1536.864@1920.0.1280.720" timestamp="1607704508812" />
+    <state width="1493" height="482" key="GridCell.Tab.1.bottom" timestamp="1608030459018">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="482" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608030459018" />
+    <state width="1493" height="276" key="GridCell.Tab.1.bottom/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1607512822706" />
+    <state width="1493" height="482" key="GridCell.Tab.1.center" timestamp="1608030459018">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="482" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1608030459018" />
+    <state width="1493" height="276" key="GridCell.Tab.1.center/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1607512822706" />
+    <state width="1493" height="482" key="GridCell.Tab.1.left" timestamp="1608030459017">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="482" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1608030459017" />
+    <state width="1493" height="276" key="GridCell.Tab.1.left/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1607512822706" />
+    <state width="1493" height="482" key="GridCell.Tab.1.right" timestamp="1608030459018">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="482" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1608030459018" />
+    <state width="1493" height="276" key="GridCell.Tab.1.right/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1607512822706" />
+    <state x="249" y="7" key="SettingsEditor" timestamp="1607273228693">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="249" y="7" key="SettingsEditor/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1607273228693" />
+    <state width="775" height="439" key="XDebugger.FullValuePopup" timestamp="1607977573538">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="775" height="439" key="XDebugger.FullValuePopup/0.0.1536.864@0.0.1536.864" timestamp="1607977573538" />
+    <state x="498" y="324" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607273292371">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="498" y="324" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1607273292371" />
+    <state x="540" y="203" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607273441799">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="540" y="203" key="com.intellij.testIntegration.createTest.CreateTestDialog/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1607273441799" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1607964593523">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1607964593523" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tester_OOP_EX3.java</url>
+          <line>417</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="((ClosedHashSet)myHashSet).tableArr[0]" custom="ClosedHashSet" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="((ClosedHashSet)this).tableArr[0]" custom="ClosedHashSet" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

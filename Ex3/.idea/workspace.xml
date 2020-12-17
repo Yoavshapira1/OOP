@@ -56,7 +56,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ex4" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31020942" />
@@ -183,10 +183,11 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1606658254788" />
-    <state x="473" y="174" key="FileChooserDialogImpl" timestamp="1606485936249">
+    <state x="473" y="174" key="FileChooserDialogImpl" timestamp="1607355957759">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="473" y="174" key="FileChooserDialogImpl/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1606485936249" />
+    <state x="473" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1607019096688" />
+    <state x="473" y="174" key="FileChooserDialogImpl/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1607355957759" />
     <state width="1493" height="143" key="GridCell.Tab.0.bottom" timestamp="1606932429353">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -244,6 +245,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="315" y="168" width="905" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1606849397357" />
+    <state x="209" y="53" key="new project wizard" timestamp="1607019098422">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="209" y="53" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1607019098422" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,74 @@
+yoavshapira1
+
+
+=============================
+=      File description     =
+=============================
+SimpleHashSet.java - An abstract class for my sets implementation.
+OpenHashSet.java - My implementation for the Ope Hash Set.
+ClosedHashSet.java - My implementation for the Closed Hash Set.
+CollectionFacadeSet.java - A wrapper for Java's collection to fit the interface.
+SimpleSetPerformanceAnalyzer.java - Analyzing performances.
+
+=============================
+=          Design           =
+=============================
+SimpleSet - a superior Interface 
+		I added a method to the API: getSetClass - which return the name of the structure, in string.
+SimpleHashSet - an abstract class, implements SimpleSet.  All non-getters methods are abstract, since they differ from set
+		set. That's the reason the members are protected.
+		I added a method to the API: setCapacity. This is used in maintainencing the set.
+CollectionFacadeSet - implement SimpleSet. Used as a WRAPPER for java's collections.
+OpenHashSet - An instance of SimpleHashSet, hence heritages SimpleSet. 
+ClosedHashSet - An instance of SimpleHashSet, hence heritages SimpleSet.
+
+=============================
+=  Implementation details   =
+=============================
+* OpenHashSet:
+	- I implemented a nested class for the buckets. Every bucket has a members of LinkedList<>;
+	- When capacity change is needed, a new OpenHashSet is generated, the values are copied, and then the 
+	values of the original set are chaned to the new set.
+
+* ClosedHashSet:
+	I used a flag to mark a slots that contained value which vas removed, and an Anti-flag to mark a slot which contained the flag.
+	Explenation:
+	(?) Problem: let Str be a String in the set s.t Str is equals to flag. How can I know if the slot contains it is empty or not?
+	(!) Solution: I save a slot especially for Str. The slot is the first slot in the Str probe (Meanly, the Str.hashcode % capacity).
+	(?) Problem: How can I delete Str? The flag is equal to Str!
+	(!) Solution: Let SLOT be the reserved slot. I maintain the set so when Str is not in SLOT, Slot contains a special string,	
+		called Anti_deleted_flag. The anti_deleted_flag and the Deleted_flag hashcodes, must differ in 1, and only in 1.
+	(?) Problem: If the upper load is 1, and only 1 slot is empty - a new value can not be added, since the slot is SLOT, which 
+		reserved for the flag!
+	(!) Solution: In this case, and only in this case, add the value to SLOT. Additionally, mark a special boolean members
+		as true - which means that the SLOT contains an actual value.
+	Members:
+		- A String array: contain the values in the set
+		- reserved_slot: This is an Integere represents the index which is resereved for the Delete_flag String
+		- Deleted_flag: This is a String represents a slot that contained a value that removed
+		- Anti_delete_flag: This is a String represents 
+		- Contain_real_value: A boolean members to tell if the reserved slot contains a real value
+	NOTES: 
+		The implementation requires quite a lot private methods to handle different cases, and also may contain
+		the same String twice (the flag or the anti-flag). Yet, it works exactly like a collection's set.
+
+* Performance Analyze:
+	- Bad result for data1: 
+		Initialize both sets (very bad)
+		look for the word with the same hashcode in the ClosedHashSet
+	- Strenghtes and weaknesses:
+		I wouldn't use Linked List ever!
+		The best performer is java's HashSet. I would use it for any need if I dont have an idea of the elements to be held.
+		Anyhow, If I can map most of the Keys to the same hashcode - Id choose the CloseHashSet rather then the Open,
+			Since it's contains methods - averagely - will take less time
+		Comparing to themeselves: Pretty similar, but to the last test: Non-exists words in well-distributed set.
+			Here the OpenHashSet is slightly better.
+		Comparing to Java's sets: Mine performed better operations performances, but the initializations were MUCH WORST.
+			I guess the Java's sets handle the allocations more strictly.
+		The Java's HashSet performance on data1.txt were much better then my implementations.
+			I guess the Java's implementation do not use Linked-List like I did, but another HashSet or even Tree-Set, 
+			as buckets, that work much faster.
+		
+	
+		
+	
