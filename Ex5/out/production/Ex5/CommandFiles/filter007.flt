@@ -1,0 +1,20 @@
+FILTER
+all#NOT
+ORDER
+warning 4
+FILTER
+suffix#txt
+ORDER
+abs#REVERSE
+FILTER
+prefix#file1#NOT
+ORDER
+warning 12
+FILTER
+contains#file1#NOT
+ORDER
+size
+FILTER
+warning 18
+ORDER
+size#REVERSE

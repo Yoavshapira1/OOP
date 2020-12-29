@@ -1,0 +1,56 @@
+yoavshapira1
+
+
+=============================
+=      File description     =
+=============================
+Package "fileprocessing":
+	DirectoryProcessor.java: The application Driver
+	Section.java: An object represents one section from the command file
+	SectionFactory: A factory produces sections
+
+Sub-package "Errors":
+	ErrorFactory.java: A factory produces error messages
+	Type1Exception.java: An exception object to tell the input have warning
+	Type2Exception.java: An exception object to tell the input is invalid
+
+Sub-package "Filters":
+	Filter.java: An abstract class for filter method
+	ParametersFormat.java: An interface to gather the important attributes of the filter line format
+	FilterFactory.java: A factory produces filters
+	DIFFERENT FILTERS TYPES:
+	FilterAll.java, FilterBetween.java, FilterContains.java, FilterExecutable.java, FilterFile.java,
+	FilterGreaterThan.java, FilterHidden.java, FilterPrefix.java, FilterSmallerThan.java, 
+	FilterSuffix.java, FilterWritable.java.
+
+sub-package "Sorts":
+	SortStrategy.java: An abstract class for sorting method
+	ParametersFormat.java: An interface to gather the important attributes of the order line format
+	SortsFactory.java: A factory produces sort strategies
+	DIFFERENT SORTING TYPES:
+	SortSize.java, SortType.java, SortAbsolute.java
+
+=============================
+=          Design           =
+=============================
+* The program reads the command file and produces Section objects that implies the command file requires later.
+* In order to keep the Open-Close principle I implemented several things in my program:
+	1) Packages: Dividing the program to a lot of packages, make it easier to find where a change needs to be done.
+	2) Factories: I implemented several factories in the program:
+		- Errors Factory: A class contains static methods. Produces the different messages to be printed to System.err.
+		- Sections Factory: A class contains static methods. Produces a sections out of a given raw input. Uses the follow:
+		- Filters Factory: A singleton, implements the Filter's ParametersFormat interface.
+		- Sorts Factory: A singleton, implements the Sorts's ParametersFormat interface.
+	3) Interfaces: The ParametersFormat (for both Filter and Sorts packages) holds information about the input format.
+	4) Abstract classes: Filter and SortStrategy arean abstract classes, whichi implements the fit Interfaces.
+
+	That way, adding new sorting or filtering methods is easy: Implement class, and add a switch case in the Factory.
+	No need to change anything - only add the desired changes. 
+	If a neccessary major change should be done - it can be done easily throght the interfaces.
+
+=============================
+=  Implementation details   =
+=============================
+* Due to the instructions, an error of Type2 shold be detected before any prints. Because we are in OOP course
+   I decided to spend more memory and keep the information that has been read into sections - rather than read the
+   file twice.

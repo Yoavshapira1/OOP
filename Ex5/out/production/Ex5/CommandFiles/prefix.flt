@@ -1,0 +1,8 @@
+FILTER
+prefix#file1#NOT
+ORDER
+warning 4
+FILTER
+prefix#file1
+ORDER
+warning 8

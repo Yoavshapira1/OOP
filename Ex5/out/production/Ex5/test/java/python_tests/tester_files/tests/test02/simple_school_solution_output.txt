@@ -1,0 +1,12 @@
+7.wx.size-21903.CCB.BAC
+3.x.size-12727.BCB.BBA
+8.wx.size-61786.ACA.BBA
+0.wx.size-36675.BAC.BCC
+1.wx.size-14161.CBC.CAA
+5.x.size-16085.CBA.CAC
+6.wx.size-19440.BCB.CAC
+9.x.size-96210.BAC.CAC
+2.wx.size-91031.AAA.CBA
+4.wx.size-21889.BBB.CCC
+file1.txt
+file2.txt

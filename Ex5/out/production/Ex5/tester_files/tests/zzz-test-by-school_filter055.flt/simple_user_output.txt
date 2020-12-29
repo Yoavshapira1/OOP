@@ -1,0 +1,10 @@
+9.x.size-96210.BAC.CAC
+8.wx.size-61786.ACA.BBA
+7.wx.size-21903.CCB.BAC
+6.wx.size-19440.BCB.CAC
+5.x.size-16085.CBA.CAC
+4.wx.size-21889.BBB.CCC
+3.x.size-12727.BCB.BBA
+2.wx.size-91031.AAA.CBA
+1.wx.size-14161.CBC.CAA
+0.wx.size-36675.BAC.BCC

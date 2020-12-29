@@ -1,0 +1,5 @@
+Java.io.File Class: reading directories
+https://www.tutorialspoint.com/java/io/java_io_file.htm
+
+String Class: working with text
+https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
