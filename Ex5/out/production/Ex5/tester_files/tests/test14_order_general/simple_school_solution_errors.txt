@@ -1,4 +1,0 @@
-Warning in line 4
-Warning in line 8
-Warning in line 12
-Warning in line 16

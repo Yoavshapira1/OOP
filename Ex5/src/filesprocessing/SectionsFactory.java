@@ -75,7 +75,8 @@ public class SectionsFactory {
     private static void parse(ArrayList<Section> sections, BufferedReader buffer) throws IOException, Type2Exception {
         String lineContent;
         int lineNumber = 1;
-        int missingParametersLines = 0;
+        int missingParametersLines = 0; //Since the section may not contain the order-parameters line,
+                                        //we need to count those lines
         while ((lineContent = buffer.readLine()) != null) {
             if ((lineNumber + missingParametersLines) % LINES_IN_SECTION == FILTER_HEADLINE_LINE) {
                 sections.add(new Section(SORTING_FACTORY.getDefaultSort(), FILTER_FACTORY.getDefaultFilter()));
@@ -102,8 +103,7 @@ public class SectionsFactory {
      */
     public static ArrayList<Section> parseFileToSections(File commandFile) throws Type2Exception {
         ArrayList<Section> sections = new ArrayList<Section>();
-        try {
-            FileReader reader = new FileReader(commandFile);
+        try (FileReader reader = new FileReader(commandFile)) {
             BufferedReader buffer = new BufferedReader(reader);
             parse(sections, buffer);
         } catch (IOException exception) {
