@@ -5,6 +5,12 @@ import java.io.File;
 /** Sort files by their type. */
 public class SortType extends SortStrategy {
 
+    /* Value represents the period sign: "." .*/
+    private static final String PERIOD = ".";
+
+    /* This value holds a a type for files that the type hasn't detected successfully .*/
+    private static final String NO_TYPE = ".";
+
     /** The constructor gets a boolean variable tells if the sorting is in reversed order.
      *
      * @param reversed A boolean value to tell if the SortStrategy is reversed or not.
@@ -24,10 +30,10 @@ public class SortType extends SortStrategy {
     @Override
     public int compare(File file1, File file2) {
 
-        int lastPeriodFile1 = file1.getName().lastIndexOf(".");
-        int lastPeriodFile2 = file2.getName().lastIndexOf(".");
-        String type1 = "";
-        String type2 = "";
+        int lastPeriodFile1 = file1.getName().lastIndexOf(PERIOD);
+        int lastPeriodFile2 = file2.getName().lastIndexOf(PERIOD);
+        String type1 = NO_TYPE;
+        String type2 = NO_TYPE;
 
         if (lastPeriodFile1 > 0) {
             type1 = file1.getName().substring(lastPeriodFile1);

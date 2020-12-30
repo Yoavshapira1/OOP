@@ -7,7 +7,7 @@ import java.io.File;
 public class FilterSuffix extends Filter {
 
     /* The string to check whether suffix is equal to. */
-    private String suffix;
+    private final String suffix;
 
     /** The constructor initialize the size member and the NOT switch.
      *

@@ -7,7 +7,7 @@ import java.io.File;
 public class FilterContains extends Filter {
 
     /* The string to check whether contained in file name. */
-    private String string;
+    private final String string;
 
     /** The constructor initialize the size member and the NOT switch.
      *

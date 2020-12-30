@@ -7,7 +7,7 @@ import java.io.File;
 public class FilterFile extends Filter {
 
     /* The String to compare to. */
-    private String fileName;
+    private final String fileName;
 
     /** The constructor initialize the size member and the NOT switch.
      *

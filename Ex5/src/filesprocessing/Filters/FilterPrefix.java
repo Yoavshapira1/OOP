@@ -7,7 +7,7 @@ import java.io.File;
 public class FilterPrefix extends Filter {
 
     /* The string to check whether prefix is equal to. */
-    private String prefix;
+    private final String prefix;
 
     /** The constructor initialize the size member and the NOT switch.
      *

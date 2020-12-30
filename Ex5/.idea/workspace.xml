@@ -188,10 +188,10 @@
     </state>
     <state x="223" y="79" width="1089" height="785" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1609172165289" />
     <state x="223" y="79" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1609087363714" />
-    <state x="40" y="83" width="681" height="669" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1609330459634">
+    <state x="40" y="83" width="679" height="669" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1609351493492">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="40" y="83" width="679" height="669" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.864@0.0.1536.864" timestamp="1609260039287" />
+    <state x="40" y="83" width="679" height="669" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.864@0.0.1536.864" timestamp="1609351493492" />
     <state x="40" y="83" width="681" height="669" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1609330459634" />
     <state x="574" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1609019843300">
       <screen x="0" y="0" width="1536" height="864" />
@@ -221,25 +221,25 @@
     </state>
     <state x="549" y="174" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1680.1050@0.0.1536.864" timestamp="1608993863756" />
     <state x="549" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1609260033400" />
-    <state width="1478" height="170" key="GridCell.Tab.0.bottom" timestamp="1609330459521">
+    <state width="1493" height="116" key="GridCell.Tab.0.bottom" timestamp="1609351493411">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609261521923" />
+    <state width="1493" height="116" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609351493411" />
     <state width="1478" height="170" key="GridCell.Tab.0.bottom/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1609330459521" />
-    <state width="1478" height="170" key="GridCell.Tab.0.center" timestamp="1609330459521">
+    <state width="1493" height="116" key="GridCell.Tab.0.center" timestamp="1609351493410">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1609261521922" />
+    <state width="1493" height="116" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1609351493410" />
     <state width="1478" height="170" key="GridCell.Tab.0.center/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1609330459521" />
-    <state width="1478" height="170" key="GridCell.Tab.0.left" timestamp="1609330459521">
+    <state width="1493" height="116" key="GridCell.Tab.0.left" timestamp="1609351493410">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1609261521922" />
+    <state width="1493" height="116" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1609351493410" />
     <state width="1478" height="170" key="GridCell.Tab.0.left/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1609330459521" />
-    <state width="1478" height="170" key="GridCell.Tab.0.right" timestamp="1609330459521">
+    <state width="1493" height="116" key="GridCell.Tab.0.right" timestamp="1609351493411">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1609261521922" />
+    <state width="1493" height="116" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1609351493411" />
     <state width="1478" height="170" key="GridCell.Tab.0.right/1920.0.1280.720/0.0.1536.864@0.0.1536.864" timestamp="1609330459521" />
     <state width="1493" height="403" key="GridCell.Tab.1.bottom" timestamp="1609260901816">
       <screen x="0" y="0" width="1536" height="864" />
@@ -285,16 +285,5 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1609260086507" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/SecondaryTester.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

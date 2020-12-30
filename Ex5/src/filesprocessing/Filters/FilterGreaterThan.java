@@ -9,7 +9,7 @@ import java.nio.file.Files;
 public class FilterGreaterThan extends Filter {
 
     /* The size to be filtered by. */
-    private double size;
+    private final double size;
 
     /** The constructor initialize the size member and the NOT switch.
      *
