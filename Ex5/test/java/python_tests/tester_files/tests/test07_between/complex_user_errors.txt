@@ -1,6 +1,0 @@
-Warning in line 8
-Warning in line 11
-Warning in line 14
-Warning in line 17
-Warning in line 20
-Warning in line 23

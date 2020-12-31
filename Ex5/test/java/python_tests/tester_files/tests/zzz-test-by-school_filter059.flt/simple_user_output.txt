@@ -1,9 +1,0 @@
-0.wx.size-36675.BAC.BCC
-1.wx.size-14161.CBC.CAA
-2.wx.size-91031.AAA.CBA
-4.wx.size-21889.BBB.CCC
-6.wx.size-19440.BCB.CAC
-7.wx.size-21903.CCB.BAC
-8.wx.size-61786.ACA.BBA
-file1.txt
-file2.txt

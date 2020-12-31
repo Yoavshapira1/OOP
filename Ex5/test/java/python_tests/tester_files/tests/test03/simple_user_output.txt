@@ -1,4 +1,0 @@
-file2.txt
-8.wx.size-61786.ACA.BBA
-2.wx.size-91031.AAA.CBA
-9.x.size-96210.BAC.CAC
